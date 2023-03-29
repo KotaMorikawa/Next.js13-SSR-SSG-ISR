@@ -14,5 +14,5 @@ npm install
 
 npx prisma generate
 
-yarn dev
+yarn run dev
 ```
