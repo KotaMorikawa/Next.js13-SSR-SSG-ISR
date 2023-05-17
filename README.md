@@ -16,3 +16,17 @@ npx prisma generate
 
 yarn run dev
 ```
+
+## api directory version in app directory
+
+app/api/route.ts
+
+```bash
+
+import { NextResponse } from 'next/server';
+
+export function GET() {
+  return NextResponse.json({ name: 'John Doe' });
+}
+```
+
